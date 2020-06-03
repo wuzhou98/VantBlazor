@@ -3,13 +3,14 @@
   "defaultProvider": "unpkg",
   "libraries": [
     {
-      "library": "vant@2.8.2",
-      "destination": "wwwroot/vant",
-      "files": [
-        "lib/index.css",
-        "lib/vant.js",
-        "lib/vant.min.js"
-      ]
+        "provider": "jsdelivr",
+        "library": "vant@2.8.2",
+        "destination": "wwwroot/vant",
+        "files": [
+            "lib/index.css",
+            "lib/vant.js",
+            "lib/vant.min.js"
+        ]
     }
   ]
 }

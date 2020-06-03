@@ -9,7 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VantBlazorDemo.Client", "de
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VantBlazorDemo.Shared", "demo\VantBlazorDemo\Shared\VantBlazorDemo.Shared.csproj", "{165C5C8F-6AF2-4B95-AF30-F17EDEF549A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantBlazor", "src\VantBlazor\VantBlazor.csproj", "{30256653-8680-48A0-9472-5360E24225DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VantBlazor", "src\VantBlazor\VantBlazor.csproj", "{30256653-8680-48A0-9472-5360E24225DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{CC063C61-DBBB-4A7A-874C-57A9448EEBFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantBlazorDocs", "docs\VantBlazorDocs\VantBlazorDocs.csproj", "{03826182-5929-48AF-BD12-3E9A6F9998AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{C8B9CA9A-501D-42E9-B83B-26E09D33885F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5184C87D-CBCE-432B-A2C4-A06B0D164E8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +41,20 @@ Global
 		{30256653-8680-48A0-9472-5360E24225DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30256653-8680-48A0-9472-5360E24225DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30256653-8680-48A0-9472-5360E24225DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03826182-5929-48AF-BD12-3E9A6F9998AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03826182-5929-48AF-BD12-3E9A6F9998AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03826182-5929-48AF-BD12-3E9A6F9998AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03826182-5929-48AF-BD12-3E9A6F9998AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C6CF612-70D8-4545-8FAE-77CB6DB2375F} = {C8B9CA9A-501D-42E9-B83B-26E09D33885F}
+		{32D886A4-70CA-4940-AD14-F87A44905917} = {C8B9CA9A-501D-42E9-B83B-26E09D33885F}
+		{165C5C8F-6AF2-4B95-AF30-F17EDEF549A8} = {C8B9CA9A-501D-42E9-B83B-26E09D33885F}
+		{30256653-8680-48A0-9472-5360E24225DA} = {5184C87D-CBCE-432B-A2C4-A06B0D164E8E}
+		{03826182-5929-48AF-BD12-3E9A6F9998AF} = {CC063C61-DBBB-4A7A-874C-57A9448EEBFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A2A6F85-6DB8-4D6B-9FC5-14050A4D89B9}
